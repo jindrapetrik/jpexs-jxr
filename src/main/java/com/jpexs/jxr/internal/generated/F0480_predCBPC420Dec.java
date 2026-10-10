@@ -1,0 +1,265 @@
+package com.jpexs.jxr.internal.generated;
+
+import com.jpexs.jxr.internal.Heap;
+
+/**
+ * Generated Java translation of jxrlib: predCBPC420Dec.
+ */
+public final class F0480_predCBPC420Dec {
+
+    private F0480_predCBPC420Dec() {
+    }
+
+    public static long run(Heap m, long a0, long a1, long a2, long a3, long a4) {
+        long[] v = new long[72];
+        v[0] = a0;
+        v[1] = a1;
+        v[2] = a2;
+        v[3] = a3;
+        v[4] = a4;
+        int frame = m.stackPosition();
+        int pc = 0, previous = -1;
+        try {
+            while (true) {
+                int old = pc;
+                switch (pc) {
+                    case 0:
+                        pc = b0(m, v, previous);
+                        break;
+                    case 1:
+                        pc = b1(m, v, previous);
+                        break;
+                    case 2:
+                        pc = b2(m, v, previous);
+                        break;
+                    case 3:
+                        pc = b3(m, v, previous);
+                        break;
+                    case 4:
+                        pc = b4(m, v, previous);
+                        break;
+                    case 5:
+                        pc = b5(m, v, previous);
+                        break;
+                    case 6:
+                        pc = b6(m, v, previous);
+                        break;
+                    case 7:
+                        pc = b7(m, v, previous);
+                        break;
+                    case 8:
+                        pc = b8(m, v, previous);
+                        break;
+                    case 9:
+                        pc = b9(m, v, previous);
+                        break;
+                    case 10:
+                        pc = b10(m, v, previous);
+                        break;
+                    case 11:
+                        pc = b11(m, v, previous);
+                        break;
+                    case 12:
+                        pc = b12(m, v, previous);
+                        break;
+                    case 13:
+                        pc = b13(m, v, previous);
+                        break;
+                    case 14:
+                        pc = b14(m, v, previous);
+                        break;
+                    case 15:
+                        pc = b15(m, v, previous);
+                        break;
+                    case 16:
+                        pc = b16(m, v, previous);
+                        break;
+                    case 17:
+                        pc = b17(m, v, previous);
+                        break;
+                    case 18:
+                        pc = b18(m, v, previous);
+                        break;
+                    case 19:
+                        pc = b19(m, v, previous);
+                        break;
+                    default:
+                        throw new IllegalStateException("Invalid block in predCBPC420Dec");
+                }
+                previous = old;
+                if (pc < 0) {
+                    return v[71];
+                }
+            }
+        } finally {
+            m.restoreStack(frame);
+        }
+    }
+
+    private static int b0(Heap m, long[] v, int previous) {
+        v[5] = (v[4] + (Heap.s(0L, 32) * 24L) + 16L + (Heap.s(1L, 32) * 4L)) & 4294967295L;
+        v[6] = m.load(v[5], 4);
+        switch ((int) v[6]) {
+            case 0:
+                return 1;
+            case 2:
+                return 7;
+            default:
+                return 8;
+        }
+    }
+
+    private static int b1(Heap m, long[] v, int previous) {
+        v[7] = (v[0] + (Heap.s(0L, 32) * 35064L) + 34276L) & 4294967295L;
+        v[8] = m.load(v[7], 4);
+        v[9] = v[8] == 0L ? 1L : 0L;
+        return v[9] != 0 ? 5 : 2;
+    }
+
+    private static int b2(Heap m, long[] v, int previous) {
+        v[10] = (v[0] + (Heap.s(0L, 32) * 35064L) + 34280L) & 4294967295L;
+        v[11] = m.load(v[10], 4);
+        v[12] = v[11] == 0L ? 1L : 0L;
+        return v[12] != 0 ? 4 : 3;
+    }
+
+    private static int b3(Heap m, long[] v, int previous) {
+        v[13] = ((v[1] ^ 1L)) & 4294967295L;
+        return 6;
+    }
+
+    private static int b4(Heap m, long[] v, int previous) {
+        v[14] = (v[0] + (Heap.s(0L, 32) * 35064L) + 34852L + (Heap.s(v[3], 32) * 4L)) & 4294967295L;
+        v[15] = m.load(v[14], 4);
+        v[16] = (v[15] + (Heap.s(v[2], 32) * 40L) + 4L) & 4294967295L;
+        v[17] = m.load(v[16], 4);
+        v[18] = ((v[17] >>> 2L)) & 4294967295L;
+        v[19] = ((v[18] & 1L)) & 4294967295L;
+        v[20] = ((v[19] ^ v[1])) & 4294967295L;
+        return 6;
+    }
+
+    private static int b5(Heap m, long[] v, int previous) {
+        v[21] = (v[0] + (Heap.s(0L, 32) * 35064L) + 34788L + (Heap.s(v[3], 32) * 4L)) & 4294967295L;
+        v[22] = m.load(v[21], 4);
+        v[23] = (v[22] + (Heap.s(v[2], 32) * 40L)) & 4294967295L;
+        v[24] = (v[23] + (Heap.s(4294967295L, 32) * 40L) + 4L) & 4294967295L;
+        v[25] = m.load(v[24], 4);
+        v[26] = ((v[25] >>> 1L)) & 4294967295L;
+        v[27] = ((v[26] & 1L)) & 4294967295L;
+        v[28] = ((v[27] ^ v[1])) & 4294967295L;
+        return 6;
+    }
+
+    private static int b6(Heap m, long[] v, int previous) {
+        long phi29 = (previous == 3 ? v[13] : (previous == 4 ? v[20] : v[28]));
+        v[29] = phi29;
+        v[30] = ((v[29] << 1L)) & 4294967295L;
+        v[31] = ((v[30] & 2L)) & 4294967295L;
+        v[32] = ((v[31] ^ v[29])) & 4294967295L;
+        v[33] = ((v[32] << 2L)) & 4294967295L;
+        v[34] = ((v[33] & 12L)) & 4294967295L;
+        v[35] = ((v[34] ^ v[32])) & 4294967295L;
+        return 8;
+    }
+
+    private static int b7(Heap m, long[] v, int previous) {
+        v[36] = ((v[1] ^ 15L)) & 4294967295L;
+        return 8;
+    }
+
+    private static int b8(Heap m, long[] v, int previous) {
+        long phi37 = (previous == 6 ? v[35] : (previous == 7 ? v[36] : v[1]));
+        v[37] = phi37;
+        v[38] = ((v[37] & 65535L)) & 4294967295L;
+        v[39] = v[38] == 0L ? 1L : 0L;
+        return v[39] != 0 ? 11 : 9;
+    }
+
+    private static int b9(Heap m, long[] v, int previous) {
+        long phi40 = (previous == 9 ? v[45] : 0L);
+        long phi41 = (previous == 9 ? v[46] : v[38]);
+        v[40] = phi40;
+        v[41] = phi41;
+        v[42] = ((v[41] & 15L)) & 4294967295L;
+        v[43] = (13888L + (Heap.s(0L, 32) * 64L) + (Heap.s(v[42], 32) * 4L)) & 4294967295L;
+        v[44] = m.load(v[43], 4);
+        v[45] = ((v[44] + v[40])) & 4294967295L;
+        v[46] = ((v[41] >>> 4L)) & 4294967295L;
+        v[47] = v[41] < 16L ? 1L : 0L;
+        return v[47] != 0 ? 10 : 9;
+    }
+
+    private static int b10(Heap m, long[] v, int previous) {
+        v[48] = ((v[45] << 2L)) & 4294967295L;
+        return 11;
+    }
+
+    private static int b11(Heap m, long[] v, int previous) {
+        long phi49 = (previous == 8 ? 0L : v[48]);
+        v[49] = phi49;
+        v[50] = ((v[49] + 4294967293L)) & 4294967295L;
+        v[51] = (v[4] + (Heap.s(0L, 32) * 8L) + (Heap.s(1L, 32) * 4L)) & 4294967295L;
+        v[52] = m.load(v[51], 4);
+        v[53] = ((v[50] + v[52])) & 4294967295L;
+        v[54] = LibC.call(m, "llvm.smax.i32", new long[]{v[53], 4294967280L});
+        v[55] = LibC.call(m, "llvm.smin.i32", new long[]{v[54], 15L});
+        m.store(v[51], v[55], 4);
+        v[56] = (v[4] + (Heap.s(0L, 32) * 24L) + 8L + (Heap.s(1L, 32) * 4L)) & 4294967295L;
+        v[57] = m.load(v[56], 4);
+        v[58] = ((v[57] - v[49])) & 4294967295L;
+        v[59] = ((v[58] + 13L)) & 4294967295L;
+        m.store(v[56], v[59], 4);
+        v[60] = ((v[58] + 4294967293L)) & 4294967295L;
+        v[61] = v[60] < 4294967264L ? 1L : 0L;
+        return v[61] != 0 ? 12 : 14;
+    }
+
+    private static int b12(Heap m, long[] v, int previous) {
+        v[62] = Heap.s(v[59], 32) < Heap.s(0L, 32) ? 1L : 0L;
+        return v[62] != 0 ? 13 : 15;
+    }
+
+    private static int b13(Heap m, long[] v, int previous) {
+        m.store(v[56], 4294967280L, 4);
+        return 14;
+    }
+
+    private static int b14(Heap m, long[] v, int previous) {
+        long phi63 = (previous == 13 ? 4294967280L : v[59]);
+        v[63] = phi63;
+        v[64] = Heap.s(v[53], 32) < Heap.s(0L, 32) ? 1L : 0L;
+        return v[64] != 0 ? 16 : 17;
+    }
+
+    private static int b15(Heap m, long[] v, int previous) {
+        m.store(v[56], 15L, 4);
+        v[65] = Heap.s(v[53], 32) < Heap.s(0L, 32) ? 1L : 0L;
+        return v[65] != 0 ? 16 : 18;
+    }
+
+    private static int b16(Heap m, long[] v, int previous) {
+        long phi66 = (previous == 15 ? 15L : v[63]);
+        v[66] = phi66;
+        v[67] = Heap.s(v[55], 32) < Heap.s(v[66], 32) ? 1L : 0L;
+        v[68] = v[67] != 0 ? 1L : 2L;
+        return 19;
+    }
+
+    private static int b17(Heap m, long[] v, int previous) {
+        v[69] = Heap.s(v[63], 32) < Heap.s(0L, 32) ? 1L : 0L;
+        return v[69] != 0 ? 19 : 18;
+    }
+
+    private static int b18(Heap m, long[] v, int previous) {
+        return 19;
+    }
+
+    private static int b19(Heap m, long[] v, int previous) {
+        long phi70 = (previous == 18 ? 0L : (previous == 16 ? v[68] : 2L));
+        v[70] = phi70;
+        m.store(v[5], v[70], 4);
+        v[71] = v[37];
+        return -1;
+    }
+}

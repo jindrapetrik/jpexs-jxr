@@ -1,0 +1,4 @@
+/target/
+/build/
+*.log
+hs_err_pid*
